@@ -16,7 +16,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function App(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "Welcome to Gabe's Page");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      height: 1000,
+      width: '100%',
+      color: 'white',
+      backgroundColor: 'black'
+    }
+  }, "Welcome to Gabe's Page");
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
