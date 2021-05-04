@@ -21,6 +21,7 @@
   "homepage": "https://github.com/gabinochacon8/GabesPage#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "get-google-fonts": "^1.2.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "path": "^0.12.7",

@@ -1,9 +1,11 @@
 import React from 'react';
+import TopBar from './TopBar';
+import MainPage from './MainPage';
 
 function App(props) {
   return (
-    <div style={{height: 1000, width: '100%', color: 'white', backgroundColor: 'black'}}>
-      Welcome to Gabe's Page
+    <div>
+
     </div>
   );
 }
