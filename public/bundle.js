@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./client/src/components/App.jsx":
@@ -8,6 +7,7 @@
   \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -33,6 +33,7 @@ function App(props) {
   \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -52,20 +53,9 @@ function MainPage(props) {
 /*!******************************************!*\
   !*** ./client/src/components/TopBar.jsx ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-
-function TopBar(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null);
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TopBar);
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/gchacon2/Desktop/hrsea-15repos/GabesPage/client/src/components/TopBar.jsx: Missing semicolon (2:48)\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mReact\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m'react'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m styledComponents \u001b[36mfrom\u001b[39m \u001b[32m'styled-components'\u001b[39ml\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m \u001b[36mfunction\u001b[39m \u001b[33mTopBar\u001b[39m(props) {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m   \u001b[36mreturn\u001b[39m (\u001b[0m\n    at Object._raise (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:776:17)\n    at Object.raiseWithData (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:769:17)\n    at Object.raise (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:737:17)\n    at Object.semicolon (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:9718:10)\n    at Object.parseImport (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:13692:10)\n    at Object.parseStatementContent (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:12360:27)\n    at Object.parseStatement (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:12260:17)\n    at Object.parseBlockOrModuleBlockBody (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:12846:25)\n    at Object.parseBlockBody (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:12837:10)\n    at Object.parseProgram (/Users/gchacon2/Desktop/hrsea-15repos/GabesPage/node_modules/@babel/parser/lib/index.js:12191:10)");
 
 /***/ }),
 
@@ -75,6 +65,7 @@ function TopBar(props) {
   \*********************************************/
 /***/ ((module) => {
 
+"use strict";
 /*
 object-assign
 (c) Sindre Sorhus
@@ -175,6 +166,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /** @license React v17.0.2
  * react-dom.development.js
  *
@@ -26442,6 +26434,7 @@ exports.version = ReactVersion;
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -26485,6 +26478,7 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /** @license React v17.0.2
  * react.development.js
  *
@@ -28828,6 +28822,7 @@ exports.version = ReactVersion;
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -28843,6 +28838,7 @@ if (false) {} else {
   \*********************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /** @license React v0.20.2
  * scheduler-tracing.development.js
  *
@@ -29200,6 +29196,7 @@ exports.unstable_wrap = unstable_wrap;
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /** @license React v0.20.2
  * scheduler.development.js
  *
@@ -29856,6 +29853,7 @@ exports.unstable_wrapCallback = unstable_wrapCallback;
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -29871,6 +29869,7 @@ if (false) {} else {
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -29937,8 +29936,9 @@ if (false) {} else {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!*****************************!*\
   !*** ./client/src/index.js ***!
   \*****************************/
