@@ -1,9 +1,11 @@
 const path = require('path');
+
 module.exports = {
   entry: path.resolve(__dirname, 'client', 'src', 'index.js'),
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -20,6 +22,13 @@ module.exports = {
         ]
       }
     ]
+  },
+  devServer: {
+    hot: true,
+    open: true,
+    historyApiFallback: true,
+    contentBase: path.join(__dirname, 'public'),
+    watchContentBase: true,
   },
   mode: 'development',
   resolve: {

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --config webpack.config.js --watch -d source-map",
+    "webpack": "webpack --watch -d source-map && copy public\\index.html /y && webpack-dev-server --content-base src --inline --port 3000 --history-api-fallback",
     "start": "nodemon server"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "styled-components": "^5.3.0"
   },
