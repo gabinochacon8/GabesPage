@@ -11,7 +11,8 @@ function App(props) {
       <div style={{alignItems:'center', textAlign:'center'}}>
         <NavBar />
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/" exact component={Home} />
+          <Route path="/intro" component={MainPage} />
           <Route path="/mywork" component={MyWork} />
           <Route path="/about" component={AboutMe} />
         </Switch>

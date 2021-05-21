@@ -1,33 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import { HashRouter, BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 const Bar = styled.nav`
   display: flex;
-  flex-direction = row;
   justify-content: space-around;
   align-items: center;
-  min-height: 7vh;
-  background-color: dodgerblue;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: -8px;
+  margin-left: -9px;
+  z-index: 1;
+`
+const ListItem = styled.li`
+  font-size: small;
+  color: purple;
+  text-decoration: none;
+
+  &:hover {
+    color: green;
+  }
 `
 
 function NavBar(props) {
+  const [currentTab, setCurrentTab] = useState();
+
   return (
     <Bar>
       <Link to="/home">
-      <h3>
         <img src='../assets/logoFEC.png' style={{height:"20px", width:"20px"}}/>
-      </h3>
       </Link>
       <ul style={{display:'flex', justifyContent:'space-around', listStyle:'none', width:'80%', alignItems:'center', }}>
-        <Link to="/">
-          <li>Home</li>
+        <Link to="/" style={{textDecoration:"none"}}>
+          <ListItem>Intro</ListItem>
         </Link>
-        <Link to="/about">
-          <li>About Me</li>
+        <Link to="/mywork" style={{textDecoration:"none"}}>
+          <ListItem>My Work</ListItem>
         </Link>
-        <Link to="/mywork">
-          <li>My Work</li>
+        <Link to="/about" style={{textDecoration:"double"}}>
+          <ListItem>About Me</ListItem>
         </Link>
       </ul>
     </Bar>
