@@ -9,3 +9,13 @@ body {
 .App {
   align-items: center;
 }
+
+/* Nav Bar */
+.ListItem {
+  color: grey;
+  font-size: small;
+  text-decoration: none;
+}
+.ListItem:hover {
+  color: black;
+}

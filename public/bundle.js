@@ -1006,7 +1006,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _templateObject, _templateObject2;
+var _templateObject;
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
@@ -1025,8 +1025,16 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var Bar = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.nav(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  height: 30px;\n  background-color: rgba(255, 255, 255, 0.1);\n  margin-top: -8px;\n  margin-left: -9px;\n  z-index: 1;\n"])));
-var ListItem = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.li(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-size: small;\n  color: purple;\n  text-decoration: none;\n\n  &:hover {\n    color: green;\n  }\n"])));
+var Bar = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.nav(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  height: 30px;\n  background-color: rgba(255, 255, 255, 0.3);\n  margin-top: -8px;\n  margin-left: -9px;\n  z-index: 1;\n"]))); // const styles = {
+//   ListItems: {
+//     font-size: "small",
+//     color: "grey",
+//     text-decoration: "none",
+//     &:hover {
+//       color: black;
+//     }
+//   }
+// }
 
 function NavBar(props) {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(),
@@ -1035,14 +1043,14 @@ function NavBar(props) {
       setCurrentTab = _useState2[1];
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Bar, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/home"
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: "../assets/logoFEC.png",
     style: {
       height: "20px",
       width: "20px"
     }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
       display: 'flex',
       justifyContent: 'space-around',
@@ -1050,22 +1058,25 @@ function NavBar(props) {
       width: '80%',
       alignItems: 'center'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/",
-    style: {
-      textDecoration: "none"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
+    className: "ListItem",
+    to: "/intro",
+    activeStyle: {
+      color: "black"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ListItem, null, "Intro")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  }, "Intro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
+    className: "ListItem",
     to: "/mywork",
-    style: {
-      textDecoration: "none"
+    activeStyle: {
+      color: "black"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ListItem, null, "My Work")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  }, "My Work"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
+    className: "ListItem",
     to: "/about",
-    style: {
-      textDecoration: "double"
+    activeStyle: {
+      color: "black"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ListItem, null, "About Me"))));
+  }, "About Me")));
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);
