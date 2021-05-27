@@ -2,7 +2,7 @@ import React from 'react';
 
 function MyWork(props) {
   return (
-    <div style={{color:'white', backgroundColor:'dodgerBlue'}}>
+    <div style={{color:'white'}}>
       <h1>My Work</h1>
       <div>
         <h2>HELLO</h2>
