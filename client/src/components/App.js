@@ -3,19 +3,40 @@ import NavBar from './NavBar';
 import MainPage from './MainPage';
 import AboutMe from './AboutMe';
 import MyWork from './MyWork';
+import { CSSTransition } from 'react-transition-group'
 import { HashRouter, BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function App(props) {
+
+  const routes = [
+    { path: '/', name: 'Home', Component: Home },
+    { path: '/intro', name: 'Intro', Component: MainPage },
+    { path: '/mywork', name: 'My Work', Component: MyWork },
+    { path: '/about', name: 'About', Component: AboutMe },
+  ]
+
   return (
     <Router>
       <div style={{alignItems:'center', textAlign:'center'}}>
         <NavBar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/intro" component={MainPage} />
-          <Route path="/mywork" component={MyWork} />
-          <Route path="/about" component={AboutMe} />
-        </Switch>
+        <div className="container">
+          {routes.map(({ path, Component }) => (
+            <Route key={path} exact path={path}>
+              {({ match }) => (
+                <CSSTransition
+                  in={match != null}
+                  timeout={300}
+                  classNames="page"
+                  unmountOnExit
+                >
+                  <div className="page">
+                    <Component />
+                  </div>
+                </CSSTransition>
+              )}
+            </Route>
+          ))}
+        </div>
       </div>
     </Router>
   );
