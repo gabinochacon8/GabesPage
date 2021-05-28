@@ -20,7 +20,19 @@ module.exports = {
             }
           }
         ]
-      }
+      },
+      {
+        test: /\.(mp4|png|JPG)$/,
+        use: [
+            {
+                loader: "file-loader",
+                options: {
+                    name: "[name].[ext]",
+                    outputPath: "video"
+                }
+            }
+        ]
+    }
     ]
   },
   devServer: {

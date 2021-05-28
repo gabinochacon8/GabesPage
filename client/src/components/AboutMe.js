@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe(props) {
   return (
-    <div style={{color:'white'}}>
+    <div style={{color:'black'}}>
       <h1>About Me</h1>
       <div>
         <h2>HELLO</h2>
