@@ -58,7 +58,9 @@ const Home = () => {
                     <p>Software Engineer and Marine Veteran</p>
                     <img
                         src={profilePic}
-                        alt="profile" />
+                        alt="profile"
+                        
+                        />
                 </div>
             </div>
         </div>

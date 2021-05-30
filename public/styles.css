@@ -14,29 +14,30 @@ body {
 
 /* Nav Bar */
 .ListItem {
-  color: grey;
+  color: black;
   font-size: small;
   text-decoration: none;
 }
 .ListItem:hover {
-  color: black;
+  color: grey;
 }
 
 .logo {
-  color: grey;
+  color: black;
   text-decoration: none;
   font-family: "Italianno";
   font-size: 2.3em;
+  margin-top: 5px;
 }
 .logo:hover {
-  color: black;
+  color: grey;
 }
 
 .mediaLinks {
-  color: grey;
+  color: black;
 }
 .mediaLinks:hover {
-  color: black;
+  color: grey;
 }
 
 /* App */
@@ -48,7 +49,7 @@ body {
 .page-enter-active {
   opacity: 1;
   transform: scale(1.1);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 700ms, transform 700ms;
 }
 
 .page-exit {
@@ -60,7 +61,7 @@ body {
 .page-exit-active {
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 700ms, transform 700ms;
 }
 
 /* Home */
@@ -100,6 +101,7 @@ body {
   z-index: -1;
 }
 .subContent {
+  position: absolute;
   text-align: center;
   padding: 5px;
 }

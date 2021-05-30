@@ -3954,28 +3954,28 @@ function NavBar(props) {
     exact: true,
     className: "logo",
     activeStyle: {
-      color: "black"
+      color: "grey"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "GC")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(DaLinks, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "Gabe Chacon")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(DaLinks, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "ListItem",
     to: "/mywork",
     exact: true,
     activeStyle: {
-      color: "black"
+      color: "grey"
     }
   }, "My Work"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "ListItem",
     to: "/intro",
     exact: true,
     activeStyle: {
-      color: "black"
+      color: "grey"
     }
   }, "Intro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "ListItem",
     to: "/about",
     exact: true,
     activeStyle: {
-      color: "black"
+      color: "grey"
     }
   }, "About Me")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://www.linkedin.com/in/gabe-chacon",
