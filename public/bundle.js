@@ -3728,8 +3728,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _src_assets_GabeChaconResume_pdf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/assets/GabeChaconResume.pdf */ "./client/src/assets/GabeChaconResume.pdf");
+/* harmony import */ var _src_assets_inDaSnow_JPG__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/assets/inDaSnow.JPG */ "./client/src/assets/inDaSnow.JPG");
 var _templateObject;
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
@@ -3737,7 +3738,8 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var Halfs = styled_components__WEBPACK_IMPORTED_MODULE_2__.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  display: inline-grid;\n  grid-template-columns: 1fr 1fr;\n  text-align: left;\n"])));
+
+var Halfs = styled_components__WEBPACK_IMPORTED_MODULE_3__.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  display: inline-grid;\n  grid-template-columns: 1fr 1fr;\n  text-align: left;\n"])));
 
 function AboutMe(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3752,15 +3754,20 @@ function AboutMe(props) {
       textAlign: 'left',
       marginLeft: '50px'
     }
-  }, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Halfs, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Halfs, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
       marginLeft: '30px'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Photo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _src_assets_inDaSnow_JPG__WEBPACK_IMPORTED_MODULE_2__.default,
+    height: "250px",
+    className: "about-me-photo"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
-      width: '80%'
+      width: '80%',
+      fontWeight: '400'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "HELLO! \uD83D\uDC4B\uD83C\uDFFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My name is Gabino Chacon, but everyone calls me Gabe. There hasn't been anything that I couldn't solve yet. I really enjoy puzzles, video games, and sports; as I love to come up with solutions for every little thing. I have had many roles. The latest being Software Engineer. I think all of my past experiences have led me here. I have been a car and train mechanic(for GATX), door to door business salesman(for Intuit), warehouse/forklift worker, U.S. Marine(3521), mobile expert/retail sales associate, and college student."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "At the end of 2018 I decided to sell all of my possessions and travel the world for a year. I have visited a total of 31 countries, including military deployment. While in Peru, I met a person working off of their laptop at a hostel during breakfast. I asked what they did, and they responded that they work remotely, as a software engineer, for a start-up. I was amazed to find out that someone could be anywhere on the planet, as long as they have WiFi, and work/make money. I immediately looked online to see what it takes, and that was the moment I found my love for coding. I started learning JavaScript, Python, and MySQL on my own using Udemy and Codeacademy. Later I found out about Hack Reactor, and I haven't looked back since."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Thank you for stopping by my page. Please take a look at my resume, and let me know if there are any solutions I can help with!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "HELLO! \uD83D\uDC4B\uD83C\uDFFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My name is Gabino Chacon, but everyone calls me Gabe. I really enjoy puzzles, video games, and sports; as I love to come up with solutions for every little thing. I have had many roles. The latest being Software Engineer. I think all of my past experiences have led me here. I have been a car and train mechanic(for GATX), door to door business salesman(for Intuit), warehouse/forklift worker, U.S. Marine(3521), mobile expert/retail sales associate, and college student."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "At the end of 2018 I decided to sell all of my possessions and travel the world for a year. I have visited a total of 31 countries, including military deployment. While in Peru, I met a person working off of their laptop at a hostel during breakfast. I asked what they did, and they responded that they work remotely, as a software engineer, for a start-up. I was amazed to find out that someone could be anywhere on the planet, as long as they have WiFi, and work/make money. I immediately looked online to see what it takes, and that was the moment I found my love for coding. I started learning JavaScript, Python, and MySQL on my own using Udemy and Codeacademy. Later I found out about Hack Reactor, and I haven't looked back since."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Thank you for stopping by my page. Please take a look at my resume, and let me know if there are any solutions I can help with!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
       borderRadius: '2px solid black'
     }
@@ -3873,7 +3880,9 @@ var Home = function Home() {
     className: "content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "subContent"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Gabe Chacon"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Software Engineer and Marine Veteran"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "myNameHeadline"
+  }, "GABE CHACON"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Software Engineer and Marine Veteran"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_proPic_JPG__WEBPACK_IMPORTED_MODULE_6__.default,
     alt: "profile"
   }))));
@@ -4194,28 +4203,28 @@ function NavBar(props) {
     exact: true,
     className: "logo",
     activeStyle: {
-      color: "grey"
+      color: "rgb(103, 58, 183)"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "Gabe Chacon")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(DaLinks, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "ListItem",
     to: "/mywork",
     exact: true,
     activeStyle: {
-      color: "grey"
+      color: "rgb(103, 58, 183)"
     }
   }, "My Work"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "ListItem",
     to: "/intro",
     exact: true,
     activeStyle: {
-      color: "grey"
+      color: "rgb(103, 58, 183)"
     }
   }, "Tech Stack"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "ListItem",
     to: "/about",
     exact: true,
     activeStyle: {
-      color: "grey"
+      color: "rgb(103, 58, 183)"
     }
   }, "About Me")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://www.linkedin.com/in/gabe-chacon",
@@ -4910,6 +4919,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "video/Vvendors.gif");
+
+/***/ }),
+
+/***/ "./client/src/assets/inDaSnow.JPG":
+/*!****************************************!*\
+  !*** ./client/src/assets/inDaSnow.JPG ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "video/inDaSnow.JPG");
 
 /***/ }),
 

@@ -34,7 +34,7 @@ function NavBar(props) {
 
   return (
     <Bar>
-      <NavLink to="/" exact className="logo" activeStyle={{color: "grey"}}>
+      <NavLink to="/" exact className="logo" activeStyle={{color: "rgb(103, 58, 183)"}}>
         <span>Gabe Chacon</span>
       </NavLink>
       <DaLinks>
@@ -43,7 +43,7 @@ function NavBar(props) {
             to="/mywork"
             exact
             activeStyle={{
-              color: "grey"
+              color: "rgb(103, 58, 183)"
             }}
           >
             My Work
@@ -53,7 +53,7 @@ function NavBar(props) {
           to="/intro"
           exact
           activeStyle={{
-            color: "grey"
+            color: "rgb(103, 58, 183)"
           }}
         >
           Tech Stack
@@ -63,7 +63,7 @@ function NavBar(props) {
           to="/about"
           exact
           activeStyle={{
-            color: "grey"
+            color: "rgb(103, 58, 183)"
           }}
         >
           About Me

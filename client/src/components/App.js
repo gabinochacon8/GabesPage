@@ -54,7 +54,7 @@ const Home = () => {
 
             <div className="content">
                 <div className="subContent" >
-                    <h1>Gabe Chacon</h1>
+                    <h1 className="myNameHeadline">GABE CHACON</h1>
                     <p>Software Engineer and Marine Veteran</p>
                     <img
                         src={profilePic}

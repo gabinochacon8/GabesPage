@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Rajdhani:wght@300;400;500&family=Roboto:wght@500&family=Squada+One&display=swap");
 @import "react-alice-carousel/lib/alice-carousel.css";
 
 html,
@@ -13,6 +14,17 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h4 {
+  font-family: "roboto";
+}
+
+p {
+  font-family: "Rajdhani";
+  font-weight: 500;
+}
+
 .App {
   align-items: center;
 }
@@ -21,10 +33,11 @@ html {
 .ListItem {
   color: black;
   font-size: small;
+  font-family: "roboto";
   text-decoration: none;
 }
 .ListItem:hover {
-  color: grey;
+  color: rgb(103, 58, 183);
 }
 
 .logo {
@@ -35,14 +48,14 @@ html {
   margin-top: 5px;
 }
 .logo:hover {
-  color: grey;
+  color: rgb(103, 58, 183);
 }
 
 .mediaLinks {
   color: black;
 }
 .mediaLinks:hover {
-  color: grey;
+  color: rgb(103, 58, 183);
 }
 
 /* APP */
@@ -90,6 +103,12 @@ html {
   z-index: -2;
 }
 /* Add some content at the bottom of the video/page */
+.myNameHeadline {
+  font-family: "Squada One";
+  font-size: 4em;
+  font-weight: 200;
+  margin-bottom: -20px;
+}
 .content {
   position: absolute;
   top: 0;
@@ -119,7 +138,6 @@ html {
   border-radius: 50%;
   display: block;
   margin: 15px auto;
-  border: #f1f1f1 1px solid;
 }
 
 /* CAROUSELS - MY WORK */
@@ -171,6 +189,8 @@ html {
 }
 .bodyItem {
   padding-bottom: 5px;
+  font-family: "Rajdhani";
+  font-weight: 400;
 }
 
 /* ABOUT ME */
@@ -180,8 +200,17 @@ html {
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;
+  font-family: "roboto";
 }
 .resume:hover {
-  color: purple;
-  border: 2px solid purple;
+  color: rgb(103, 58, 183);
+  border: 2px solid rgb(103, 58, 183);
+}
+.about-me-photo {
+  position: relative;
+  border-radius: 45%;
+  align-items: center;
+  top: 50px;
+  bottom: 10px;
+  left: 15%;
 }
