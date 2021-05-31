@@ -42,7 +42,7 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
     watchContentBase: true,
   },
-  mode: 'development',
+  mode: 'production',
   resolve: {
     extensions: ['.js', '.jsx']
   }

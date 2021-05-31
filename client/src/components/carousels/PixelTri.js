@@ -22,7 +22,7 @@ function PixelTri(props) {
   return (
     <div className="carouselContainer">
       <h2 className="carouselTitle">Pixel Triceratops</h2>
-      <p className="projectDescription">A group of 4 engineers, including myself, were tasked with building a single-page e-commerce web application. I was in charge of the Product Overview, while the others were in charge of Related Products, Questions and Answers, and Ratings and Reviews.</p>
+      <p className="projectDescription">A group of 4 engineers, including myself, were tasked with building a single-page e-commerce web application. I was in charge of the Product Overview, while the others were in charge of Related Products, Questions and Answers, and Ratings and Reviews. </p>
       <Carousel>
         {items.map((item, idx) => {
         return (
