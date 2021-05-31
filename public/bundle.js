@@ -3752,7 +3752,15 @@ function AboutMe(props) {
       textAlign: 'left',
       marginLeft: '50px'
     }
-  }, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Halfs, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Photo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "HELLO"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Cras facilisis urna ornare ex volutpat, et convallis erat elementum. Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget rhoncus nibh metus nec massa. Maecenas hendrerit laoreet augue nec molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Duis a turpis sed lacus dapibus elementum sed eu lectus."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Halfs, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      marginLeft: '30px'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Photo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    style: {
+      width: '80%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "HELLO! \uD83D\uDC4B\uD83C\uDFFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My name is Gabino Chacon, but everyone calls me Gabe. There hasn't been anything that I couldn't solve yet. I really enjoy puzzles, video games, and sports; as I love to come up with solutions for every little thing. I have had many roles. The latest being Software Engineer. I think all of my past experiences have led me here. I have been a car and train mechanic(for GATX), door to door business salesman(for Intuit), warehouse/forklift worker, U.S. Marine(3521), mobile expert/retail sales associate, and college student."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "At the end of 2018 I decided to sell all of my possessions and travel the world for a year. I have visited a total of 31 countries, including military deployment. While in Peru, I met a person working off of their laptop at a hostel during breakfast. I asked what they did, and they responded that they work remotely, as a software engineer, for a start-up. I was amazed to find out that someone could be anywhere on the planet, as long as they have WiFi, and work/make money. I immediately looked online to see what it takes, and that was the moment I found my love for coding. I started learning JavaScript, Python, and MySQL on my own using Udemy and Codeacademy. Later I found out about Hack Reactor, and I haven't looked back since."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Thank you for stopping by my page. Please take a look at my resume, and let me know if there are any solutions I can help with!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
       borderRadius: '2px solid black'
     }
@@ -3763,7 +3771,8 @@ function AboutMe(props) {
   }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
     "class": "fas fa-scroll",
     style: {
-      paddingRight: '3px'
+      paddingRight: '3px',
+      marginBottom: '100px'
     }
   }), "Resume")))));
 }
