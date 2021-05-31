@@ -59,8 +59,7 @@ const Home = () => {
                     <img
                         src={profilePic}
                         alt="profile"
-                        
-                        />
+                    />
                 </div>
             </div>
         </div>

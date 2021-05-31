@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import "react-alice-carousel/lib/alice-carousel.css";
 
 html,
 body {
@@ -8,11 +9,15 @@ body {
   margin-left: -1px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   align-items: center;
 }
 
-/* Nav Bar */
+/* NAV BAR */
 .ListItem {
   color: black;
   font-size: small;
@@ -40,7 +45,7 @@ body {
   color: grey;
 }
 
-/* App */
+/* APP */
 .page-enter {
   opacity: 0;
   transform: scale(1.1);
@@ -64,7 +69,7 @@ body {
   transition: opacity 700ms, transform 700ms;
 }
 
-/* Home */
+/* HOME */
 
 .videoContainer {
   min-height: auto;
@@ -72,7 +77,6 @@ body {
   margin-bottom: 500px;
   z-index: -2;
 }
-
 /* Style the video: 100% width and height to cover the entire window */
 .video {
   position: absolute;
@@ -85,7 +89,6 @@ body {
   opacity: unset;
   z-index: -2;
 }
-
 /* Add some content at the bottom of the video/page */
 .content {
   position: absolute;
@@ -117,4 +120,68 @@ body {
   display: block;
   margin: 15px auto;
   border: #f1f1f1 1px solid;
+}
+
+/* CAROUSELS - MY WORK */
+.carouselContainer {
+  border-bottom: 5px solid #eeeeeead;
+}
+.projectDescription {
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: -10px;
+}
+.carouselTitle {
+  text-align: start;
+  margin-left: 60px;
+  margin-bottom: -5px;
+}
+.itemTitle {
+  text-align: center;
+}
+.carouselImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.rec.rec-arrow {
+  border-radius: 0;
+  background-color: grey;
+}
+.rec.rec-arrow:hover,
+.rec.rec-arrow:active {
+  border-radius: 50%;
+  color: white;
+}
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+/* TECK SKILLS */
+.tech_skills {
+}
+.table {
+  width: 230px;
+}
+.head {
+  padding-bottom: 10px;
+  font-size: larger;
+  text-decoration: underline;
+}
+.bodyItem {
+  padding-bottom: 5px;
+}
+
+/* ABOUT ME */
+.resume {
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.resume:hover {
+  color: purple;
+  border: 2px solid purple;
 }

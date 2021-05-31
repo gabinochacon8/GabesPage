@@ -9,13 +9,16 @@ import { faGithub, faEnvelope, falinkedin } from '@fortawesome/free-solid-svg-ic
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Bar = styled.nav`
+  position: fixed;
+  width: 105%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 30px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, .4);
   margin-top: -8px;
   margin-left: -9px;
+  z-index: 1000;
 `
 const DaLinks = styled.div`
   display: flex;
@@ -53,7 +56,7 @@ function NavBar(props) {
             color: "grey"
           }}
         >
-          Intro
+          Tech Stack
         </NavLink>
         <NavLink
           className="ListItem"

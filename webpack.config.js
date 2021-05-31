@@ -22,7 +22,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(mp4|png|JPG)$/,
+        test: /\.(mp4|png|JPG|gif|css|pdf)$/,
         use: [
             {
                 loader: "file-loader",
