@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import logo from '../assets/logoFEC.png';
 import { BrowserRouter as Router, Route, Link, Switch, NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faGithub, faEnvelope, falinkedin } from '@fortawesome/free-solid-svg-icons';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Bar = styled.nav`

@@ -21,11 +21,6 @@
   },
   "homepage": "https://github.com/gabinochacon8/GabesPage#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
     "express": "^4.17.1",
     "get-google-fonts": "^1.2.2",
     "lodash": "^4.17.21",
