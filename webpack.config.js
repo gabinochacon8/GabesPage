@@ -5,7 +5,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
-    publicPath: '/'
   },
   module: {
     rules: [
@@ -34,13 +33,6 @@ module.exports = {
         ]
     }
     ]
-  },
-  devServer: {
-    hot: true,
-    open: true,
-    historyApiFallback: true,
-    contentBase: path.join(__dirname, 'public'),
-    watchContentBase: true,
   },
   mode: 'production',
   resolve: {

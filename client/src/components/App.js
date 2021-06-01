@@ -4,7 +4,7 @@ import MainPage from './MainPage';
 import AboutMe from './AboutMe';
 import MyWork from './MyWork';
 import MoabVid from './video/MoabCompile.mp4';
-import profilePic from '../assets/proPic.JPG';
+import profilePic from '../assets/proPic.png';
 import { CSSTransition } from 'react-transition-group';
 import { HashRouter, BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 

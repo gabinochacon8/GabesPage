@@ -2,23 +2,19 @@ import React, { useState, useEffect, useRef } from "react";
 import Carousel from 'react-elastic-carousel';
 import '../../../../public/styles.css';
 import image1 from '../../assets/gifs/TBsplash.gif';
-import image2 from '../../assets/gifs/TBLogin and Register.gif';
-import image3 from '../../assets/gifs/TBItinerary Screen.gif';
-import image4 from '../../assets/gifs/TBMap Directions.gif';
-import image5 from '../../assets/gifs/TBMap Search.gif';
-import image6 from '../../assets/gifs/TBImportant Contacts.gif';
-import image7 from '../../assets/gifs/TBMessages.gif';
+import image2 from '../../assets/gifs/TBItinerary Screen.gif';
+import image3 from '../../assets/gifs/TBMap Directions.gif';
+import image4 from '../../assets/gifs/TBMap Search.gif';
+import image5 from '../../assets/gifs/TBMessages.gif';
 
 function TravelBug(props) {
 
   const items = [
     {id:1, image: image1, title:'Splash Start Screen'},
-    {id:2, image: image2, title:'Login and Register'},
-    {id:3, image: image3, title:'Itinerary Screen'},
-    {id:4, image: image4, title:'Map Directions'},
-    {id:5, image: image5, title:'Map Search'},
-    {id:6, image: image6, title:'Important Contacts'},
-    {id:7, image: image7, title:'Messages'}
+    {id:3, image: image2, title:'Itinerary Screen'},
+    {id:4, image: image3, title:'Map Directions'},
+    {id:5, image: image4, title:'Map Search'},
+    {id:7, image: image5, title:'Messages'}
   ];
 
   return (

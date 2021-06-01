@@ -28,6 +28,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "express": "^4.17.1",
     "get-google-fonts": "^1.2.2",
+    "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "path": "^0.12.7",
