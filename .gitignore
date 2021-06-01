@@ -4,4 +4,3 @@ node_modules
 # bundle stuff
 public/bundle.js
 public/bundle.js.map
-public/bundle.js
