@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/gabinochacon8/GabesPage#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "get-google-fonts": "^1.2.2",
     "lodash": "^4.17.21",
