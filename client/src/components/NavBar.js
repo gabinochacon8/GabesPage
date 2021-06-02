@@ -66,9 +66,9 @@ function NavBar(props) {
         </NavLink>
       </DaLinks>
       <div>
-      <a href="https://www.linkedin.com/in/gabe-chacon" className="mediaLinks"><FaLinkedin /></a>
-      <a href="https://www.github.com/gabinochacon8" className="mediaLinks"><FaGithub /></a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gabino.chacon8@gmail.com" className="mediaLinks"><FaEnvelope /></a>
+      <a href="https://www.linkedin.com/in/gabe-chacon" target="_blank" className="mediaLinks"><FaLinkedin /></a>
+      <a href="https://www.github.com/gabinochacon8" target="_blank" className="mediaLinks"><FaGithub /></a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gabino.chacon8@gmail.com" target="_blank" className="mediaLinks"><FaEnvelope /></a>
       </div>
     </Bar>
   );

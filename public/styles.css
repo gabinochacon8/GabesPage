@@ -43,9 +43,9 @@ p {
 .logo {
   color: black;
   text-decoration: none;
-  font-family: "Italianno";
+  font-family: "Squada One";
   font-size: 2.3em;
-  margin-top: 5px;
+  font-weight: 100;
 }
 .logo:hover {
   color: rgb(103, 58, 183);
@@ -53,6 +53,7 @@ p {
 
 .mediaLinks {
   color: black;
+  font-family: "Squada One";
 }
 .mediaLinks:hover {
   color: rgb(103, 58, 183);
@@ -213,4 +214,6 @@ p {
   top: 50px;
   bottom: 10px;
   left: 15%;
+  width: 30vw;
+  height: auto;
 }
