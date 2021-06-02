@@ -5,7 +5,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 30px;
   padding-right: 50px;
 `
 
@@ -13,7 +13,7 @@ const MainPage = () => {
   return (
       <div id="tech_skills">
           <div style={{color:'black', paddingTop: "20px", bottom:'-50px'}}>
-              <h1 style={{ fontSize:'3em', textAlign:'left', marginLeft:'50px' }}>Tech Stack</h1>
+              <h1 style={{ fontSize:'3em', textAlign:'left', marginLeft:'30px' }}>Tech Stack</h1>
               <br></br>
               <Container>
                   <div>

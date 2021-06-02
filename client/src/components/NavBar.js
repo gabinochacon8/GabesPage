@@ -31,7 +31,7 @@ function NavBar(props) {
   return (
     <Bar>
       <NavLink to="/" exact className="logo" activeStyle={{color: "rgb(103, 58, 183)"}}>
-        <span>Gabe Chacon</span>
+        <span>My Portfolio</span>
       </NavLink>
       <DaLinks>
           <NavLink
