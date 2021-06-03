@@ -5,22 +5,19 @@ import { BrowserRouter as Router, Route, Link, Switch, NavLink } from "react-rou
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Bar = styled.nav`
-  position: fixed;
+  position: sticky;
   width: 105%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 30px;
   background-color: rgba(255, 255, 255, .4);
   margin-top: -8px;
-  margin-left: -9px;
   z-index: 1000;
 `
 const DaLinks = styled.div`
   display: flex;
   justify-content: space-evenly;
-  padding-left: 5px;
-  padding-right: 5px;
   listStyle: none;
   width: 50%;
 `

@@ -15,13 +15,11 @@ function AboutMe(props) {
         <h1 style={{ fontSize:'3em', textAlign:'left', marginLeft:'50px' }} >About Me</h1>
       <Halfs>
         <div style={{marginLeft:'30px'}}>
-          <img src={profileImage} height='250px' className="about-me-photo"/>
+          <img src={profileImage} className="about-me-photo"/>
         </div>
         <div style={{width:'80%', fontWeight:'400'}}>
           <h2>HELLO! 👋🏼</h2>
-          <p>My name is Gabino Chacon, but everyone calls me Gabe. Growing up I enjoyed puzzles, video games, and sports; and now I love finding solutions for even the most random things. I have had many roles. The latest being Software Engineer, and I think all of my past experiences have led me here. I have been a car and train mechanic (for GATX), door to door business salesman (for Intuit), warehouse/forklift worker, U.S. Marine (3521), mobile expert/retail sales associate, and college student.</p>
-
-          <p>At the end of 2018 I decided to sell all of my possessions and travel the world for a year. I have visited a total of 31 countries, including military deployment. While in Peru, I met a person working off of their laptop at a hostel during breakfast. I asked what they did, and they responded that they work remotely, as a software engineer, for a start-up. I was amazed to find out that someone could be anywhere on the planet, as long as they have WiFi, and work/make money. I immediately looked online to see what it takes, and that was the moment I found my love for coding. I started learning JavaScript, Python, and MySQL on my own using Udemy and Codeacademy. Later I found out about Hack Reactor, and I haven't looked back since.</p>
+          <p>My name is Gabino Chacon, but everyone calls me Gabe. I am a Marine Veteran who found a love for coding in 2018 when solo traveling the world. While eating breakfast in a hostel in Peru, I met a person working off of their laptop. I asked him what he did, and he told me he was a freelance software engineer for a startup company. Unfamiliar with coding, I was immediately intrigued. While sipping his coffee in Lima, he was able to contribute to building a web application in the United States. Inspired by the opportunity of software engineering, I took the initiative to learn how to code. Today, I am a qualified Fullstack Engineer. </p>
 
           <p>Thank you for stopping by my page. Please take a look at my resume, and let me know if there are any solutions I can help with!</p>
           <div style={{borderRadius:'2px solid black'}}>

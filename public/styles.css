@@ -41,6 +41,8 @@ p {
 }
 
 .logo {
+  display: flex;
+  justify-content: start;
   color: black;
   text-decoration: none;
   font-family: "roboto";
@@ -169,7 +171,8 @@ p {
 .rec.rec-arrow:hover,
 .rec.rec-arrow:active {
   border-radius: 50%;
-  color: white;
+  color: black;
+  background-color: black;
 }
 .rec.rec-arrow:disabled {
   visibility: hidden;
@@ -212,6 +215,6 @@ p {
   top: 50px;
   bottom: 10px;
   left: 15%;
-  width: 35vw;
+  width: 30vw;
   height: auto;
 }
