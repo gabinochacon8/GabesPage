@@ -17,7 +17,7 @@ const Bar = styled.nav`
 `
 const DaLinks = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   listStyle: none;
   width: 50%;
 `
@@ -28,7 +28,7 @@ function NavBar(props) {
   return (
     <Bar>
       <NavLink to="/" exact className="logo" activeStyle={{color: "rgb(103, 58, 183)"}}>
-        <span>My Portfolio</span>
+        <span style={{textAlign:'left'}}>My Portfolio</span>
       </NavLink>
       <DaLinks>
           <NavLink

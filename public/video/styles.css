@@ -48,6 +48,7 @@ p {
   font-family: "roboto";
   font-size: 1.3em;
   font-weight: 100;
+  text-align: left;
 }
 .logo:hover {
   color: rgb(103, 58, 183);
@@ -209,12 +210,10 @@ p {
   border: 2px solid rgb(103, 58, 183);
 }
 .about-me-photo {
-  position: relative;
   border-radius: 50%;
   align-items: center;
   top: 50px;
   bottom: 10px;
-  left: 15%;
   width: 30vw;
   height: auto;
 }

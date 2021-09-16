@@ -4,15 +4,15 @@ import resume from '../../src/assets/GabeChaconResume.pdf';
 import profileImage from '../../src/assets/inDaSnow.JPG';
 
 const Halfs = styled.div`
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   text-align: left;
 `
 
 function AboutMe(props) {
   return (
-    <div style={{ color:'black', paddingTop: "20px", bottom:'-50px' }}>
-        <h1 style={{ fontSize:'3em', textAlign:'left', marginLeft:'50px' }} >About Me</h1>
+    <div style={{ color:'black', paddingTop: "10px", bottom:'-50px' }}>
+        <h1 style={{ fontSize:'3em', textAlign:'center'}} >About Me</h1>
       <Halfs>
         <div style={{marginLeft:'30px'}}>
           <img src={profileImage} className="about-me-photo"/>
