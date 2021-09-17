@@ -1,73 +1,84 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import logo from '../assets/logoFEC.png';
-import { BrowserRouter as Router, Route, Link, Switch, NavLink } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-
-const Bar = styled.nav`
-  position: sticky;
-  width: 105%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 30px;
-  background-color: rgba(255, 255, 255, .4);
-  margin-top: -8px;
-  z-index: 1000;
-`
-const DaLinks = styled.div`
-  display: flex;
-  justify-content: space-around;
-  listStyle: none;
-  width: 50%;
-`
+import React, { useState } from "react";
+import styled from "styled-components";
+import logo from "../assets/logoFEC.png";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  NavLink,
+} from "react-router-dom";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 function NavBar(props) {
   const [currentTab, setCurrentTab] = useState();
 
   return (
-    <Bar>
-      <NavLink to="/" exact className="logo" activeStyle={{color: "rgb(103, 58, 183)"}}>
-        <span style={{textAlign:'left'}}>My Portfolio</span>
-      </NavLink>
-      <DaLinks>
-          <NavLink
+    <div className="navBar">
+      <div className="bar_content">
+        <div>
+          <a
+            className="logo"
+            href="#home"
+            activeStyle={{ color: "rgb(103, 58, 183)" }}
+          >
+            <span style={{ textAlign: "left" }}>My Portfolio</span>
+          </a>
+        </div>
+        <div className="links">
+          <a
             className="ListItem"
-            to="/mywork"
-            exact
+            href="#mywork"
             activeStyle={{
-              color: "rgb(103, 58, 183)"
+              color: "rgb(103, 58, 183)",
             }}
           >
             My Work
-          </NavLink>
-        <NavLink
-          className="ListItem"
-          to="/intro"
-          exact
-          activeStyle={{
-            color: "rgb(103, 58, 183)"
-          }}
-        >
-          Tech Stack
-        </NavLink>
-        <NavLink
-          className="ListItem"
-          to="/about"
-          exact
-          activeStyle={{
-            color: "rgb(103, 58, 183)"
-          }}
-        >
-          About Me
-        </NavLink>
-      </DaLinks>
-      <div>
-      <a href="https://www.linkedin.com/in/gabe-chacon" target="_blank" className="mediaLinks"><FaLinkedin /></a>
-      <a href="https://www.github.com/gabinochacon8" target="_blank" className="mediaLinks"><FaGithub /></a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gabino.chacon8@gmail.com" target="_blank" className="mediaLinks"><FaEnvelope /></a>
+          </a>
+          <a
+            className="ListItem"
+            href="#tech_skills"
+            activeStyle={{
+              color: "rgb(103, 58, 183)",
+            }}
+          >
+            Tech Stack
+          </a>
+          <a
+            className="ListItem"
+            href="#about"
+            activeStyle={{
+              color: "rgb(103, 58, 183)",
+            }}
+          >
+            About Me
+          </a>
+        </div>
+        <div className="social_media_icons">
+          <a
+            href="https://www.linkedin.com/in/gabe-chacon"
+            target="_blank"
+            className="mediaLinks"
+          >
+            <FaLinkedin size="xs" />
+          </a>
+          <a
+            href="https://www.github.com/gabinochacon8"
+            target="_blank"
+            className="mediaLinks"
+          >
+            <FaGithub size="xs" />
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gabino.chacon8@gmail.com"
+            target="_blank"
+            className="mediaLinks"
+          >
+            <FaEnvelope size="xs" />
+          </a>
+        </div>
       </div>
-    </Bar>
+    </div>
   );
 }
 

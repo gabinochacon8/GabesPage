@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import MainPage from "./MainPage";
+import TechStack from "./TechStack";
 import AboutMe from "./AboutMe";
 import MyWork from "./MyWork";
 import MoabVid from "./video/MoabCompile.mp4";
@@ -18,32 +18,18 @@ function App(props) {
   const routes = [
     { path: "/", name: "Home", Component: Home },
     { path: "/mywork", name: "My Work", Component: MyWork },
-    { path: "/intro", name: "Intro", Component: MainPage },
+    { path: "/intro", name: "Intro", Component: TechStack },
     { path: "/about", name: "About", Component: AboutMe },
   ];
 
   return (
-    <Router>
-      <div style={{ alignItems: "center", textAlign: "center" }}>
-        <NavBar />
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path}>
-            {({ match }) => (
-              <CSSTransition
-                in={match != null}
-                timeout={300}
-                classNames="page"
-                unmountOnExit
-              >
-                <div className="page">
-                  <Component />
-                </div>
-              </CSSTransition>
-            )}
-          </Route>
-        ))}
-      </div>
-    </Router>
+    <div>
+      <NavBar />
+      <Home id="home" />
+      <MyWork />
+      <TechStack />
+      <AboutMe />
+    </div>
   );
 }
 
@@ -56,9 +42,13 @@ const Home = () => {
       </video>
       <div className="content">
         <div className="subContent">
-          <h1 className="myNameHeadline">GABE CHACON</h1>
+          <div>
+            <h1 className="myNameHeadline">GABE CHACON</h1>
+          </div>
           <p>Software Engineer and Marine Veteran</p>
-          <img src={profilePic} alt="profile" />
+          <div>
+            <img src={profilePic} alt="profile" className="main_profile_img" />
+          </div>
         </div>
       </div>
     </div>

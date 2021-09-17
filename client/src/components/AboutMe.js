@@ -11,7 +11,7 @@ const Halfs = styled.div`
 
 function AboutMe(props) {
   return (
-    <div style={{ color:'black', paddingTop: "10px", bottom:'-50px' }}>
+    <div id="about" style={{ color:'black', paddingTop: "10px", bottom:'-50px' }}>
         <h1 style={{ fontSize:'3em', textAlign:'center'}} >About Me</h1>
       <Halfs>
         <div style={{marginLeft:'30px'}}>
