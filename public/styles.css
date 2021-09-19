@@ -6,6 +6,7 @@
 html,
 body {
   margin-left: -1px;
+  background-color: #f5f8fa;
 }
 
 * {
@@ -100,7 +101,7 @@ p {
   overflow: hidden;
   z-index: -2;
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   margin-top: -8px;
 }
 /* Style the video: 100% width and height to cover the entire window */
@@ -109,7 +110,8 @@ p {
   /* width: 100%; */
   object-fit: cover;
   /* transform: translate(0, 50); 11.5 if nav is fixed */
-  z-index: -2;
+  width: 100%;
+  height: 100vh;
 }
 /* Add some content at the bottom of the video/page */
 .content {
@@ -124,7 +126,7 @@ p {
   justify-content: center;
   align-items: center;
   padding: 0;
-  z-index: -1;
+  z-index: 5;
 }
 .subContent {
   text-align: center;
@@ -155,7 +157,7 @@ p {
   position: relative;
   align-items: center;
   width: 500px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   color: "black";
 }
 .carouselContainer {
@@ -205,25 +207,47 @@ p {
 /* TECK SKILLS */
 .tech_skills {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .tech_skills > h1 {
-  /* font-size: 3em; */
+  font-size: 3em;
   text-align: center;
 }
 .tech_stack {
-  align-items: center;
-  width: 500px;
-  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
   color: "black";
+  width: 470px;
+  height: 775px;
+  margin: 0;
 }
-.table {
-  width: 26vw;
+.tech_card_container {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 280px;
+  margin: 0;
+}
+.tech_development_card_container {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 360px;
+  margin: 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
 }
 .head {
-  padding-bottom: 10px;
-  font-size: larger;
+  font-size: 1.25rem;
   text-decoration: underline;
 }
 .bodyItem {
@@ -240,6 +264,9 @@ p {
   bottom: 10px;
   width: 30vw;
   height: auto;
+  padding-bottom: 5px;
+  font-family: "Rajdhani";
+  font-weight: 400;
 }
 .resume {
   color: black;
