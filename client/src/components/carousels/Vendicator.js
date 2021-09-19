@@ -21,14 +21,12 @@ function Vendicator(props) {
       <div className="carouselTitleAndDescription">
         <h2 className="carouselTitle">Vendicator</h2>
         <p className="projectDescription">
-          Tasked with building a minimum viable product in two days, I designed
-          and built a mobile application. The general idea of the app is to aid
-          micro businesses, including examples like: elote person, flower
-          seller, garage sales, various other small vendors, etc., wherever they
-          may be. If the seller is mobile they can update their location as
-          desired, or have a live location set up. That way buyers can locate
-          any vendors where ever they may be. This is to find any vendor that
-          may have been previously elusive.
+          With a deadline of two days, I created an MVP (minimum viable product)
+          mobile application called Vendicator. Designed with small vendors in
+          mind, Vendicator helps you indicate where a vendor is actively
+          located. I since have continued the project, and brought two other
+          engineers on board. Work will be continued to make a fully functioning
+          app in app stores. Stay tuned.
         </p>
       </div>
       <div className="carouselDiv">

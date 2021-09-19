@@ -8,6 +8,7 @@ function MyWork(props) {
     <div
       style={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
       }}
@@ -19,6 +20,7 @@ function MyWork(props) {
         <PixelTri />
         <Vendicator />
       </div>
+      <hr style={{ width: "100%", marginTop: "50px" }} />
     </div>
   );
 }

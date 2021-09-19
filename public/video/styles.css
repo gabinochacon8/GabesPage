@@ -5,8 +5,15 @@
 
 html,
 body {
-  margin-left: -1px;
+  margin: 0;
   background-color: #f5f8fa;
+  min-width: 500px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 
 * {
@@ -36,6 +43,7 @@ p {
 /* NAV BAR */
 .navBar {
   position: fixed;
+  align-items: center;
   width: 100%;
   z-index: 1000;
   overflow: hidden;
@@ -45,8 +53,9 @@ p {
   height: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  padding-top: 8px;
 }
 .logo {
   display: flex;
@@ -107,18 +116,21 @@ p {
 /* Style the video: 100% width and height to cover the entire window */
 .video {
   position: relative;
-  /* width: 100%; */
   object-fit: cover;
   /* transform: translate(0, 50); 11.5 if nav is fixed */
   width: 100%;
   height: 100vh;
 }
 /* Add some content at the bottom of the video/page */
+.content_container {
+  display: flex;
+  justify-content: center;
+}
 .content {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 30px;
+  top: 0;
   color: #f1f1f1;
   width: 100%;
   height: 100%;
@@ -139,7 +151,6 @@ p {
   z-index: 1000;
 }
 .myNameHeadline {
-  font-family: "Squada One";
   font-size: 4em;
   font-weight: 100;
   margin-bottom: -20px;
@@ -156,8 +167,7 @@ p {
 .myWork {
   position: relative;
   align-items: center;
-  width: 500px;
-  /* margin-top: 50px; */
+  max-width: 500px;
   color: "black";
 }
 .carouselContainer {
@@ -173,7 +183,8 @@ p {
   margin-bottom: 10px;
 }
 .projectDescription {
-  text-align: center;
+  text-align: justify;
+  padding: 0 10px;
   margin: 0;
 }
 .carouselDiv {
@@ -219,6 +230,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: -webkit-fill-available;
 }
 .tech_skills > h1 {
   font-size: 3em;
@@ -230,8 +242,8 @@ p {
   justify-content: space-around;
   align-items: flex-start;
   color: "black";
-  width: 470px;
-  height: 775px;
+  max-width: 450px;
+  min-height: 775px;
   margin: 0;
 }
 .tech_card_container {
@@ -266,18 +278,38 @@ p {
 }
 
 /* ABOUT ME */
-.about-me-photo {
-  border-radius: 50%;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  top: 50px;
-  bottom: 10px;
+}
+.about_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+.about-me-photo {
+  border-radius: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 30vw;
-  height: auto;
-  padding-bottom: 5px;
-  font-family: "Rajdhani";
+}
+.about_p {
+  width: 80%;
   font-weight: 400;
+  text-align: justify;
+}
+.about_p > h2 {
+  text-align: center;
+}
+.about_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .resume {
+  align-items: center;
   color: black;
   border: 2px solid black;
   padding: 5px;
@@ -288,4 +320,37 @@ p {
 .resume:hover {
   color: rgb(103, 58, 183);
   border: 2px solid rgb(103, 58, 183);
+}
+.gmail_button {
+  align-items: center;
+  border: 2px #de5246 solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #de5246;
+  font-family: "Product Sans";
+}
+.linked_in_button {
+  align-items: center;
+  border: 2px #0077b5 solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.github_button {
+  align-items: center;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0 15px;
+  padding-top: 9px;
+  padding-bottom: 1px;
+}
+.github_button:hover {
+  color: rgb(103, 58, 183);
+  border: 2px solid rgb(103, 58, 183);
+}
+
+.footer {
+  text-align: center;
 }

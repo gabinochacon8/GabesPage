@@ -1,14 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  margin-left: 30px;
-  padding-right: 50px;
-`;
-
 const TechStack = () => {
   return (
     <div id="tech_skills" className="tech_skills">
@@ -178,6 +170,7 @@ const TechStack = () => {
           </div>
         </div>
       </div>
+      <hr style={{ width: "100%", marginTop: "20px" }} />
     </div>
   );
 };

@@ -23,10 +23,9 @@ function PixelTri(props) {
       <div className="carouselContainer">
         <h2 className="carouselTitle">Pixel Triceratops</h2>
         <p className="projectDescription">
-          A group of 4 engineers, including myself, were tasked with building a
-          single-page e-commerce web application. I was in charge of the Product
-          Overview, while the others were in charge of Related Products,
-          Questions and Answers, and Ratings and Reviews.{" "}
+          A single page e-commerce web application that includes an overview of
+          a current product, related products, questions and answers, and
+          ratings and reviews.{" "}
         </p>
         <div className="carouselDiv">
           <div className="pixelTri_carousel">

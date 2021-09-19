@@ -63,18 +63,18 @@ function NavBar(props) {
             <FaLinkedin size="xs" />
           </a>
           <a
+            href="mailto:=gabino.chacon8@gmail.com"
+            target="_blank"
+            className="mediaLinks"
+          >
+            <FaEnvelope size="xs" />
+          </a>
+          <a
             href="https://www.github.com/gabinochacon8"
             target="_blank"
             className="mediaLinks"
           >
             <FaGithub size="xs" />
-          </a>
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gabino.chacon8@gmail.com"
-            target="_blank"
-            className="mediaLinks"
-          >
-            <FaEnvelope size="xs" />
           </a>
         </div>
       </div>

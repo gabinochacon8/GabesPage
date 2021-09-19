@@ -21,16 +21,12 @@ function TravelBug(props) {
       <h2 className="carouselTitle">TravelBug</h2>
       <div className="projectDescription">
         <p>
-          A group of 8 engineers, including myself, were tasked with building a
-          mobile application for a client that handled study abroad programs for
-          various schools around the world. An engineer and I were in charge of
-          the Maps section, while the others were in charge of App Navigation,
-          Itinerary, Messages, and full Back-End setup. The Maps consisted of
-          google-maps api with full search and directions capabilities. We also
-          integrated predefined places for the students, event pins (in the
-          shape of lady bugs) that are directly dependent on the itinerary and
-          based on the current or selected date, and pins the student can set
-          when a location is searched.
+          Travel Bug is a mobile application designed to aid study abroad
+          programs for schools around the world. The app contains auth for
+          students or admin. It has an itinerary with every event based on date
+          chosen with current day as default. The maps have preloaded pins based
+          on the events for that day, and also contains important locations such
+          as embassy, etc. There is also an alert system, and two way messaging.
         </p>
       </div>
       <div className="carouselDiv">
