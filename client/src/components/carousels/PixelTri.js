@@ -29,13 +29,13 @@ function PixelTri(props) {
           Questions and Answers, and Ratings and Reviews.{" "}
         </p>
         <div className="carouselDiv">
-          <div className="carousels">
+          <div className="pixelTri_carousel">
             <Carousel>
               {items.map((item, idx) => {
                 return (
                   <div key={item.id}>
                     <h4 className="itemTitle">{item.title}</h4>
-                    <img src={item.image} className="carouselImage" />
+                    <img src={item.image} className="pixelTri_carouselImage" />
                   </div>
                 );
               })}
