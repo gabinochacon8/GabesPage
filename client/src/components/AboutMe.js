@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import resume from "../../src/assets/GabeChaconResume.pdf";
 import profilePic from "../assets/proPic.png";
-import gmailLogo from "../../src/assets/Gmail-logo.png";
+import gmailLogo from "../../src/assets/Gmail-Logo.png";
 import linkedIn from "../../src/assets/LI-Logo.png";
 import githubPhoto from "../../src/assets/GitHub_logo.png";
 import githubIcon from "../../src/assets/GitHub_mascot.png";
