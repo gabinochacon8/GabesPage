@@ -402,3 +402,21 @@ p {
     transform: scale(1);
   }
 }
+
+@media (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .bar_content {
+    height: 7vh;
+  }
+  .social_media_icons {
+    display: none;
+  }
+  .nav-bar-home {
+    display: none;
+  }
+  .links {
+    width: 70%;
+  }
+}

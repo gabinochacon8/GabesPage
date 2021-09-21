@@ -16,7 +16,7 @@ function NavBar(props) {
   return (
     <div className="navBar">
       <div className="bar_content">
-        <div>
+        <div className="nav-bar-home">
           <a
             className="logo link_animation"
             href="#home"
