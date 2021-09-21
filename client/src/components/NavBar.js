@@ -18,7 +18,7 @@ function NavBar(props) {
       <div className="bar_content">
         <div>
           <a
-            className="logo"
+            className="logo link_animation"
             href="#home"
             activeStyle={{ color: "rgb(103, 58, 183)" }}
           >
@@ -27,7 +27,7 @@ function NavBar(props) {
         </div>
         <div className="links">
           <a
-            className="ListItem"
+            className="ListItem link_animation"
             href="#mywork"
             activeStyle={{
               color: "rgb(103, 58, 183)",
@@ -36,7 +36,7 @@ function NavBar(props) {
             My Work
           </a>
           <a
-            className="ListItem"
+            className="ListItem link_animation"
             href="#tech_skills"
             activeStyle={{
               color: "rgb(103, 58, 183)",
@@ -45,7 +45,7 @@ function NavBar(props) {
             Tech Stack
           </a>
           <a
-            className="ListItem"
+            className="ListItem link_animation"
             href="#about"
             activeStyle={{
               color: "rgb(103, 58, 183)",
@@ -58,21 +58,21 @@ function NavBar(props) {
           <a
             href="https://www.linkedin.com/in/gabe-chacon"
             target="_blank"
-            className="mediaLinks"
+            className="mediaLinks link_animation"
           >
             <FaLinkedin size="xs" />
           </a>
           <a
             href="mailto:=gabino.chacon8@gmail.com"
             target="_blank"
-            className="mediaLinks"
+            className="mediaLinks link_animation"
           >
             <FaEnvelope size="xs" />
           </a>
           <a
             href="https://www.github.com/gabinochacon8"
             target="_blank"
-            className="mediaLinks"
+            className="mediaLinks link_animation"
           >
             <FaGithub size="xs" />
           </a>

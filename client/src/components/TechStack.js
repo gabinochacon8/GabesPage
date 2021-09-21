@@ -1,10 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const TechStack = () => {
   return (
     <div id="tech_skills" className="tech_skills">
-      <h1>Tech Skills</h1>
+      <div data-aos="flip-down">
+        <h1 className="tech_skills_header">Tech Skills</h1>
+      </div>
       <div className="tech_stack">
         <div className="tech_card_container">
           <div className="card">
@@ -170,7 +174,15 @@ const TechStack = () => {
           </div>
         </div>
       </div>
-      <hr style={{ width: "100%", marginTop: "20px" }} />
+      <hr
+        style={{
+          width: "100%",
+          height: "5px",
+          marginTop: "20px",
+          borderColor: "rgb(103, 58, 183)",
+          backgroundColor: "rgb(103, 58, 183)",
+        }}
+      />
     </div>
   );
 };
