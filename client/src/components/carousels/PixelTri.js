@@ -19,33 +19,31 @@ function PixelTri(props) {
   ];
 
   return (
-    <div>
-      <div className="carouselContainer">
-        <h2 className="carouselTitle">Pixel Triceratops</h2>
-        <p className="projectDescription">
-          A single page e-commerce web application that includes an overview of
-          a current product, related products, questions and answers, and
-          ratings and reviews.{" "}
-        </p>
-        <div className="carouselDiv">
-          <div className="pixelTri_carousel">
-            <Carousel>
-              {items.map((item, idx) => {
-                return (
-                  <div key={item.id}>
-                    <h4 className="itemTitle">{item.title}</h4>
-                    <img src={item.image} className="pixelTri_carouselImage" />
-                  </div>
-                );
-              })}
-            </Carousel>
-          </div>
+    <div className="carouselContainer">
+      <h2 className="carouselTitle">Pixel Triceratops</h2>
+      <p className="projectDescription">
+        A single page e-commerce web application that includes an overview of a
+        current product, related products, questions and answers, and ratings
+        and reviews.{" "}
+      </p>
+      <div className="carouselDiv">
+        <div className="pixelTri_carousel">
+          <Carousel>
+            {items.map((item, idx) => {
+              return (
+                <div key={item.id}>
+                  <h4 className="itemTitle">{item.title}</h4>
+                  <img src={item.image} className="pixelTri_carouselImage" />
+                </div>
+              );
+            })}
+          </Carousel>
         </div>
-        <h5>
-          ReactJS | React Hooks | NodeJS | Webpack/Babel | Express | Axios |
-          Styled Components | Jest | React Testing Library
-        </h5>
       </div>
+      <h5>
+        ReactJS | React Hooks | NodeJS | Webpack/Babel | Express | Axios |
+        Styled Components | Jest | React Testing Library
+      </h5>
     </div>
   );
 }

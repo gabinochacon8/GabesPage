@@ -165,7 +165,6 @@ p {
 .subContent {
   text-align: center;
   padding: 5px;
-  height: 400px;
 }
 .subContent p {
   color: #f1f1f1;
@@ -216,6 +215,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .carousels {
   align-items: center;
@@ -223,7 +223,7 @@ p {
 }
 .pixelTri_carousel {
   align-items: center;
-  max-width: 500px;
+  width: 500px;
 }
 .itemTitle {
   text-align: center;
@@ -339,7 +339,6 @@ p {
 .resume {
   align-items: center;
   color: black;
-  border: 2px solid black;
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;
@@ -347,20 +346,16 @@ p {
 }
 .resume:hover {
   color: rgb(103, 58, 183);
-  border: 2px solid rgb(103, 58, 183);
 }
 .gmail_button {
   align-items: center;
-  border: 2px #de5246 solid;
   padding: 5px 16px;
   border-radius: 5px;
-  text-decoration: none;
   color: #de5246;
-  font-family: "Product Sans";
 }
 .linked_in_button {
   align-items: center;
-  border: 2px #0077b5 solid;
+  color: #0077b5;
   padding: 5px 17px;
   border-radius: 5px;
   text-decoration: none;
@@ -368,7 +363,6 @@ p {
 .github_button {
   align-items: center;
   color: black;
-  border: 2px solid black;
   border-radius: 5px;
   padding: 0 15px;
   padding-top: 9px;
@@ -376,7 +370,6 @@ p {
 }
 .github_button:hover {
   color: rgb(103, 58, 183);
-  border: 2px solid rgb(103, 58, 183);
 }
 
 .footer {
@@ -409,6 +402,9 @@ p {
   }
   .bar_content {
     height: 7vh;
+  }
+  .pixelTri_carousel {
+    width: 360px;
   }
   .social_media_icons {
     display: none;

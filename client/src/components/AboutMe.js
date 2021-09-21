@@ -8,6 +8,7 @@ import githubPhoto from "../../src/assets/GitHub_logo.png";
 import githubIcon from "../../src/assets/GitHub_mascot.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaGithub, FaLinkedin, FaEnvelope, FaScroll } from "react-icons/fa";
 
 function AboutMe(props) {
   return (
@@ -26,29 +27,25 @@ function AboutMe(props) {
           <p>
             My name is Gabe. You killed my... oh wait wrong story. I am a Marine
             Veteran who found a love for coding in 2018 when solo traveling the
-            world. While eating breakfast in a hostel in Peru, I met a person
-            working off of their laptop. I asked him what he did, and he told me
-            he was a freelance software engineer for a startup company.
-            Unfamiliar with coding, I was immediately intrigued. While sipping
-            his coffee in Lima, he was able to contribute to building a web
-            application in the United States. Inspired by the opportunity of
-            software engineering, I took the initiative to learn how to code.
-            Today, I am a qualified Fullstack Engineer.{" "}
+            world. I met a person working off of their laptop while eating
+            breakfast at our hostel. I asked him what he did, and he told me he
+            was a freelance software engineer for a startup company. I was
+            immediately intrigued that while sipping his coffee in Peru, he was
+            able to contribute to building a web application in the US. I had
+            some exposure to coding in college, but I wasn't sure what path to
+            take then. Inspired by the opportunity of software engineering, I
+            took the initiative to learn how to code, and here I am.{" "}
           </p>
 
           <p>
             Thank you for stopping by my page. Please take a look at my resume,
-            and let me know if there are any solutions I can help with!
+            and let me know if there are any solutions I can help with! Feel
+            free to hire me as well 😉
           </p>
           <div className="about_links">
             <div className="link">
               <a href={resume} target="_blank" className="resume">
-                {" "}
-                <i
-                  class="fas fa-scroll"
-                  style={{ paddingRight: "3px", marginBottom: "100px" }}
-                ></i>
-                Resume
+                <FaScroll size="lg" />
               </a>
             </div>
             <div className="link">
@@ -57,8 +54,7 @@ function AboutMe(props) {
                 target="_blank"
                 className="linked_in_button"
               >
-                {" "}
-                <img src={linkedIn} width="60px" />
+                <FaLinkedin size="lg" />
               </a>
             </div>
             <div className="link">
@@ -67,9 +63,7 @@ function AboutMe(props) {
                 target="_blank"
                 className="gmail_button"
               >
-                {" "}
-                <img src={gmailLogo} width="21px" />
-                Gmail
+                <FaEnvelope size="lg" />
               </a>
             </div>
             <div className="link">
@@ -78,12 +72,7 @@ function AboutMe(props) {
                 target="_blank"
                 className="github_button"
               >
-                <img src={githubIcon} width="18px" className="github_content" />
-                <img
-                  src={githubPhoto}
-                  width="45px"
-                  className="github_content"
-                />
+                <FaGithub size="lg" />
               </a>
             </div>
           </div>
