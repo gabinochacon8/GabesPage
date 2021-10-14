@@ -56,7 +56,7 @@ function NavBar(props) {
             <FaLinkedin size="xs" />
           </a>
           <a
-            href="mailto:=gabino.chacon8@gmail.com"
+            href="mailto:gabino.chacon8@gmail.com"
             target="_blank"
             className="mediaLinks link_animation"
           >
