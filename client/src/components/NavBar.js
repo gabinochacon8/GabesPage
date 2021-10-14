@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import logo from "../assets/logoFEC.png";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaRocket } from "react-icons/fa";
 
 function NavBar(props) {
   const [currentTab, setCurrentTab] = useState();
@@ -12,10 +12,10 @@ function NavBar(props) {
         <div className="nav-bar-home">
           <a
             className="logo link_animation"
-            href="#home"
+            href="#"
             activeStyle={{ color: "rgb(103, 58, 183)" }}
           >
-            <span style={{ textAlign: "left" }}>My Portfolio</span>
+            <FaRocket size="xs" />
           </a>
         </div>
         <div className="links">
