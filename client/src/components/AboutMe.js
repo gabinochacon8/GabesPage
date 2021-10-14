@@ -58,7 +58,7 @@ function AboutMe(props) {
             </div>
             <div className="link">
               <a
-                href="mailto:=gabino.chacon8@gmail.com"
+                href="mailto:gabino.chacon8@gmail.com"
                 target="_blank"
                 className="gmail_button"
               >
