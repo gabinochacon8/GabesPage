@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import resume from "../../src/assets/GabeChaconResume.pdf";
 import profilePic from "../assets/proPic.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -40,7 +39,11 @@ function AboutMe(props) {
           </p>
           <div className="about_links">
             <div className="link">
-              <a href={resume} target="_blank" className="resume">
+              <a
+                href="https://drive.google.com/file/d/1BBjVKhX9TLGP1OoD-0seisJsusEgKvxv/view?usp=sharing"
+                target="_blank"
+                className="resume"
+              >
                 <FaScroll size="lg" />
               </a>
             </div>
