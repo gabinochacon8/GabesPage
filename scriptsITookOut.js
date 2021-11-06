@@ -1,0 +1,1 @@
+"webpack": "webpack --watch -d source-map && copy public\\index.html /y && webpack-dev-server --content-base src --inline --port 3000 --history-api-fallback",

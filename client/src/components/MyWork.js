@@ -37,7 +37,7 @@ function MyWork(props) {
       </div>
       <hr
         style={{
-          width: "100%",
+          width: "70%",
           height: "5px",
           marginTop: "50px",
           borderColor: "rgb(103, 58, 183)",
