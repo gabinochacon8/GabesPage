@@ -12,8 +12,6 @@ function Footer(props) {
   return (
     <div>
       <div className="contact_container">
-        {thankYouNote ?
-        <span>Thanks!</span> :
         <form className="contact_form">
           <h5>Contact Me</h5>
           <div className="inputs">
@@ -30,7 +28,6 @@ function Footer(props) {
           </div>
           <button onClick={(e) => thankYouNote}>Send</button>
         </form>
-        }
       </div>
       <h6 className="footer">
         Copyright&copy; 2021 WEBSITE DESIGNED BY GABE CHACON. All rights

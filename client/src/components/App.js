@@ -74,3 +74,7 @@ const Home = () => {
 };
 
 export default App;
+
+
+// To transfer files into aws
+// scp -i actual_frontend_sdc.pem ../macCutout.png ubuntu@ec2-3-135-148-224.us-east-2.compute.amazonaws.com:assets
