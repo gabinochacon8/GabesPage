@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import TechStack from "./TechStack";
 import AboutMe from "./AboutMe";
 import MyWork from "./MyWork";
+import Projects from './Projects';
 import Footer from "./Footer";
 import MoabVid from "./video/MoabCompile.mp4";
 import profilePic from "../assets/proPic.png";
@@ -15,6 +16,7 @@ function App(props) {
     <div>
       <NavBar />
       <Home id="home" />
+      {/* <Projects /> */}
       <MyWork />
       <TechStack />
       <AboutMe />
