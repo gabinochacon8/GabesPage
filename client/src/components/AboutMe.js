@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import profilePic from "../assets/proPic.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { FaGithub, FaLinkedin, FaEnvelope, FaScroll } from "react-icons/fa";
 
 function AboutMe(props) {
@@ -20,6 +18,7 @@ function AboutMe(props) {
           src={profilePic}
           alt="profile image"
           className="main_profile_img"
+          sizes='(max-width: 600px) 200px, 300px'
         />
         <div className="about_p">
           <div className="hello">
@@ -53,7 +52,7 @@ function AboutMe(props) {
           <div className="about_links">
             <div className="link">
               <a
-                href="https://drive.google.com/file/d/1BBjVKhX9TLGP1OoD-0seisJsusEgKvxv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1w-Io1PnBhgpCVlAcwE99gjoOwDFfrQxY/view?usp=sharing"
                 target="_blank"
                 className="resume"
               >

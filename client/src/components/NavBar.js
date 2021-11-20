@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/logoFEC.png";
 import { FaGithub, FaLinkedin, FaEnvelope, FaRocket } from "react-icons/fa";
 
 function NavBar(props) {

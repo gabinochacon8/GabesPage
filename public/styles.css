@@ -368,7 +368,7 @@ p {
   height: 450px;
   width: 450px;
   margin: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 .projects-inner-card {
   width: fit-content;
@@ -379,24 +379,25 @@ p {
   align-items: center;
   background-color: rgba(0, 24, 41, 1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
 }
 .projects-title {
   width: fit-content;
   padding: 5px 10px;
 }
 .projects-image-vendicator {
-  width: 65%;
+  width: 300px;
   /* border: 1px coral solid; */
   padding: 0;
 }
 .projects-image-travel-bug {
-  width: 70%;
+  width: 328px;
   margin-top: 20px;
   /* border: 1px coral solid; */
   padding: 0;
 }
 .projects-image-project-catwalk {
-  width: 65%;
+  width: 300px;
 }
 .h6 {
   white-space: wrap;
@@ -508,10 +509,11 @@ p {
   max-width: 500px;
   flex-wrap: wrap;
 }
-.about-me-photo {
-  border-radius: 1px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 30vw;
+.main_profile_img {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  height: 200px;
+  width: 200px;
 }
 .about_p {
   width: 80%;
@@ -646,10 +648,6 @@ p {
   }
   .project-cards {
     margin: 0;
-  }
-  .p-card {
-    margin: 0;
-    max-width: 350px;
   }
   .projects-image-travel-bug {
     margin-bottom: 30px;

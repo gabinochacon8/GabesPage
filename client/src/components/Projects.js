@@ -20,7 +20,7 @@ function Projects(props) {
               <div className="projects-title">
                 <h2>Vendicator</h2>
               </div>
-              <img src={vendiTrio} alt="mobile displays" className="projects-image-vendicator"/>
+              <img src={vendiTrio} alt="mobile displays" className="projects-image-vendicator" sizes='300px'/>
               <h6 className="h6">React Native | Cocoapods | Apple Maps API</h6>
             </div>
             <div className="projects-button">
@@ -32,7 +32,7 @@ function Projects(props) {
               <div className="projects-title">
                 <h2>Travel Bug</h2>
               </div>
-              <img src={tbTrio} alt="mobile displays" className="projects-image-travel-bug"/>
+              <img src={tbTrio} alt="mobile displays" className="projects-image-travel-bug" sizes='328px'/>
               <h6 className="h6">
                 React Native | Cocoapods | Google-Maps API | PostreSQL |
                 Mongoose/MongoDB
@@ -45,7 +45,7 @@ function Projects(props) {
           <div className="p-card">
             <div className="projects-inner-card">
               <h2>Project Catwalk</h2>
-              <img src={macCutout} alt="Macbook display" className="projects-image-project-catwalk"/>
+              <img src={macCutout} alt="Macbook display" className="projects-image-project-catwalk" sizes='300px'/>
               <h6 className="h6">
               ReactJS | NodeJS | Webpack/Babel | Express | Axios |
               Styled Components | Jest | React Testing Library
