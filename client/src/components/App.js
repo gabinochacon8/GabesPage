@@ -1,23 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import NavBar from "./NavBar";
 import TechStack from "./TechStack";
 import AboutMe from "./AboutMe";
-import MyWork from "./MyWork";
 import Projects from './Projects';
 import Footer from "./Footer";
-import MoabVid from "./video/MoabCompile.mp4";
-import profilePic from "../assets/proPic.png";
 import star_background from "../assets/stars.jpeg";
 import StarfieldAnimation from "react-starfield-animation";
 
 function App(props) {
+
+  useEffect(() => {
+    setTimeout(() => {
+      $(document).ready(() => {
+          $('body').addClass('loaded');
+        })
+    }, 1500);
+  }, [])
+
   return (
     <div>
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
       <NavBar />
       <Home id="home" />
-      {/* <Projects /> */}
-      <MyWork />
+      <Projects />
       <TechStack />
       <AboutMe />
       <Footer />
@@ -31,6 +41,7 @@ const Home = () => {
       className="home"
       style={{
         backgroundImage: `url(${star_background})`,
+        boxShadow: '0 8px 6px -6px black'
       }}
     >
       <div className="content_container">
@@ -76,7 +87,6 @@ const Home = () => {
 };
 
 export default App;
-
 
 // To transfer files into aws
 // scp -i actual_frontend_sdc.pem ../macCutout.png ubuntu@ec2-3-135-148-224.us-east-2.compute.amazonaws.com:assets

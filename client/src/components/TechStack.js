@@ -6,8 +6,12 @@ import "aos/dist/aos.css";
 const TechStack = () => {
   return (
     <div id="tech_skills" className="tech_skills">
-      <div data-aos="flip-down">
-        <h1 className="tech_skills_header">Tech Stack</h1>
+      <div className="heading"> {/* class located in projects css */}
+      <div class="hr"></div> {/* class located in projects css */}
+        <div>
+          <h1 className="tech-skills-header">Tech Stack</h1>
+        </div>
+        <div class="hr"></div> {/* class located in projects css */}
       </div>
       <div className="tech_stack">
         <div className="tech_card_container">
@@ -55,7 +59,7 @@ const TechStack = () => {
               <img
                 width="15px"
                 src="https://img.icons8.com/color/452/mongodb.png"
-                style={{ backgroundColor: "#bfbebeeb" }}
+                className="mongo-db"
                 alt="MongoDB_icon"
               />{" "}
               MongoDB
@@ -174,15 +178,6 @@ const TechStack = () => {
           </div>
         </div>
       </div>
-      <hr
-        style={{
-          width: "60%",
-          height: "5px",
-          marginTop: "20px",
-          borderColor: "rgb(103, 58, 183)",
-          backgroundColor: "rgb(103, 58, 183)",
-        }}
-      />
     </div>
   );
 };

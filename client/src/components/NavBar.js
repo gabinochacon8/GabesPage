@@ -6,8 +6,19 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaRocket } from "react-icons/fa";
 function NavBar(props) {
   const [currentTab, setCurrentTab] = useState();
 
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+
   return (
-    <div className="navBar">
+    <div className="navBar" id="navbar">
       <div className="bar_content">
         <div className="nav-bar-home">
           <a

@@ -30,9 +30,9 @@ function Footer(props) {
           </div>
           <div className="inputs">
             <span>Message</span>
-            <textarea rows="6" cols="32" id="TITLE" name="message"/>
+            <textarea rows="6" cols="32" class="input-backgrounds" id="TITLE" name="message"/>
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" className="projects-button">Send</button>
         </form>
       </div>
       <h6 className="footer">

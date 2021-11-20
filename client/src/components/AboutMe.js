@@ -8,8 +8,12 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaScroll } from "react-icons/fa";
 function AboutMe(props) {
   return (
     <div id="about" className="about">
-      <div data-aos="flip-down">
-        <h1 style={{ fontSize: "3em", textAlign: "center" }}>About Me</h1>
+      <div className="heading"> {/* class located in projects css */}
+        <div class="hr"></div> {/* class located in projects css */}
+        <div>
+          <h1 className="about-header">About Me</h1>
+        </div>
+        <div class="hr"></div> {/* class located in projects css */}
       </div>
       <div className="about_container">
         <img
@@ -18,18 +22,27 @@ function AboutMe(props) {
           className="main_profile_img"
         />
         <div className="about_p">
-          <h2>HELLO! 👋🏼</h2>
+          <div className="hello">
+            <h2>HELLO!</h2>
+          </div>
           <p>
-            My name is Gabe. You killed my... oh wait wrong story. I am a Marine
-            Veteran who found a love for coding in 2018 when solo traveling the
-            world. I met a person working off of their laptop while eating
-            breakfast at our hostel. I asked him what he did, and he told me he
-            was a freelance software engineer for a startup company. I was
-            immediately intrigued that while sipping his coffee in Peru, he was
-            able to contribute to building a web application in the US. I had
-            some exposure to coding in college, but I wasn't sure what path to
-            take then. Inspired by the opportunity of software engineering, I
-            took the initiative to learn how to code, and here I am.{" "}
+            My name is Gabino, but I go by Gabe. I am a Marine Veteran who found a
+            love for coding in 2018 when solo traveling the world. I am a full stack
+            developer, and I can build apps from front to back. Currently I am learning
+            Python, but I am fluent in Javascript. I really like to work with mobile
+            applications, but I also love desiging web apps.
+            <a href="#tech_skills" style={{color:'#f1f1f1'}}>{' '} My stack </a>
+            listed above are most technologies I am comfortable with. I am also learning Django
+            to better develop my backend skills.{"\n"}
+          </p>
+
+          <p>
+            My education consists of a degree from National University in Computer Science
+            and two bootcamps including Hack Reactor and PDX Code Guild. I am also
+            constantly updating my knowlege using medium.com, YouTube, and various other
+            media. This is truly my passion, and I am on my computer 80%
+            of my day practicing what I know, and implementing everything with new apps.
+            Although I am a junior developer, I can relentlessly solve any problem.
           </p>
 
           <p>
@@ -80,6 +93,7 @@ function AboutMe(props) {
       <hr
         style={{
           width: "50%",
+          maxWidth: '400px',
           height: "5px",
           marginTop: "50px",
           borderColor: "rgb(103, 58, 183)",
